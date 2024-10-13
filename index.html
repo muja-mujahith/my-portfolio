@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <nav id="desktop-nav">
+        <div class="logo">Mohamed Mujahith</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experince</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+    </div>
+    </nav>
+
+    <nav class="line-nav">
+        <div class="logo">Mohamed Mujahith</div>
+        <div class="line-menu">
+            <div class="line-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div> 
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experince</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./asserts/my new 4to.jpg" alt="myimage">
+        </div>
+
+        <div class="section__text">
+            <p class="section__text__p1">Hello I'm</p>
+            <h1 class="title">Mujahith</h1>
+            <p class="section__text__p2">Frontend Developer</p>
+        
+
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+
+            <div class="social-container">
+                <img 
+                src="./asserts/linkedin.png" 
+                alt="mylinked in profile" 
+                class="icon" 
+                onclick="location.href='www.linkedin.com/in/muja-mujahithnew'"
+                >
+                <img 
+                src="./asserts/github.png" 
+                alt="git"
+                class="icon"
+                onclick="location.href='https://github.com/'"
+                >
+            </div>
+       </div> 
+    </section>
+
+    <section id="about">
+        <p class="section__text__p1">Get To Kown More</p>
+        <div class="title"><h>About Me</h></div>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img 
+                src="./asserts/my.jpg" 
+                alt="myimag"
+                class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-container">
+                    <div class="details-container">
+                        <img 
+                        src="./asserts/medal.png" 
+                        alt="certificate"
+                        width="50px"
+                        class="icon">
+                        <h3>Experiance</h3>
+                        <p>2+ year experance in <br/>frontend devepmet</p>
+                    </div>
+                    <div class="details-container">
+                        <img 
+                        src="./asserts/mortarboard.png" 
+                        alt="certificate"
+                        width="50px"
+                        height="50px"
+                        class="icon">
+                        <h3>Education</h3>
+                        <p>B.Sc. in information Technology<br/>B.Sc in applied science and electronics</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas, vero perferendis corrupti, qui eius quae nemo autem totam iure, laborum doloribus odit distinctio perspiciatis? Ex facilis asperiores rerum et qui?</p>
+                </div>
+            </div>
+        </div>
+        <img 
+        src="./asserts/down-arrow.png" 
+        alt="arrow"
+        class="icon arrow"
+        onclick="location.href='./#experience'">
+
+    </section>
+
+    <section id="experience">
+        <p class="section__text__p1">Exploer My</p>
+        <div class="title">experience</div>
+        <div class="experience-details-container">
+            <div class="about-container">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./asserts/verify.png" alt="tik" width="30px" height="30px" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Exprienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./asserts/verify.png" alt="tik" width="30px" height="30px" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Exprienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./asserts/verify.png" alt="tik" width="30px" height="30px" class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Exprienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./asserts/verify.png" alt="tik" width="30px" height="30px" class="icon">
+                            <div>
+                                <h3>JAVASCRIPT</h3>
+                                <p>Exprienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./asserts/verify.png" alt="tik" width="30px" height="30px" class="icon">
+                            <div>
+                                <h3>Typesctipt</h3>
+                                <p>Exprienced</p>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>    
+            </div>
+
+            <div class="details-container">
+                <h2 class="experience-sub-title">Frontend Development</h2>
+                <div class="article-container">
+                    <article>
+                        <img src="./asserts/verify.png" alt="tik" width="30px" height="30px" class="icon">
+                        <div>
+                            <h3>Node js</h3>
+                            <p>Exprienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./asserts/verify.png" alt="tik" width="30px" height="30px" class="icon">
+                        <div>
+                            <h3>Express js</h3>
+                            <p>Exprienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./asserts/verify.png" alt="tik" width="30px" height="30px" class="icon">
+                        <div>
+                            <h3>MongoDb</h3>
+                            <p>Exprienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./asserts/verify.png" alt="tik" width="30px" height="30px" class="icon">
+                        <div>
+                            <h3>React js</h3>
+                            <p>Exprienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./asserts/verify.png" alt="tik" width="30px" height="30px" class="icon">
+                        <div>
+                            <h3>Git and Github</h3>
+                            <p>Exprienced</p>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </div>
+        <img 
+        src="./asserts/down-arrow.png" 
+        alt="arrow"
+        class="icon arrow"
+        onclick="location.href='./#projects'">
+    </section>
+
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <div class="title"><h1></h1>Projects</h1></div>
+        <div class="experience-details-contaniner">
+            <div class="about-container">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./asserts/my.jpg" 
+                        alt="one pro"
+                        class="project-img"
+                        >
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project One</h2>
+                    <div class="btn-container">
+                        <button 
+                        class="btn btn-color-2 project-btn"
+                        onclick="location.href='#'">
+                        Github
+                        </button>
+                        <button 
+                        class="btn btn-color-2 project-btn"
+                        onclick="location.href='#'">
+                        Live Demo
+                        </button>
+                    </div>
+                </div>
+               
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./asserts/my.jpg" 
+                        alt="second pro"
+                        class="project-img"
+                        >
+                        
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project Two</h2>
+                    <div class="btn-container">
+                        <button 
+                        class="btn btn-color-2 project-btn"
+                        onclick="location.href='#'">
+                        Github
+                    </button>
+                    <button 
+                        class="btn btn-color-2 project-btn"
+                        onclick="location.href='#'">
+                        Live Demo
+                    </button>
+                    </div>
+                </div>
+                
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./asserts/my.jpg" 
+                        alt="third pro"
+                        class="project-img"
+                        >
+                        
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project Three</h2>
+                    <div class="btn-container">
+                        <button 
+                        class="btn btn-color-2 project-btn"
+                        onclick="location.href='#'">
+                            Github
+                        </button>
+                        <button 
+                        class="btn btn-color-2 project-btn"
+                        onclick="location.href='#'">
+                        Live Demo
+                    </button>
+                    </div>
+                </div>
+               
+            </div>
+        </div>    
+        <img 
+        src="./asserts/down-arrow.png" 
+        alt="arrow"
+        class="icon arrow"
+        onclick="location.href='./#contact'">
+    </section>
+
+    <section  id="contact">
+        <p class="section__text__p1">Get In Touch</p>
+        <div class="title"><h1>Contact ME</h1></div>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img 
+                src="./asserts/gmail.png" 
+                alt="email"
+                class="icon contact-icon email-icon">
+                <p><a href="mujaith18862.new@gmail.com">mujaith18862.new@gmail.com</a></p>
+            </div>
+            
+            
+            <div class="contact-info-container">
+                <img 
+                src="./asserts/linkedin.png" 
+                alt="email"
+                class="icon contact-icon">
+                <p><a href="http://www.linkedin.com">LinkedIn</a></p>
+            </div>
+            
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyright &#169; 2024 Mohamed Mujahith. All Right Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
