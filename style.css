@@ -390,6 +390,7 @@ article .icon{
 .project-title {
     margin: 1rem;
     color:black;
+    
 
 }
 
@@ -398,16 +399,16 @@ article .icon{
     border-color: rgb(163, 163, 163);
 }
 
-.details-container .article-container .project-img {
+/* .details-container .article-container .project-img {
     margin: auto;
-}
+} */
 
 /* .details-container .article-container  {
     height: 70%;
-    /* background-color: red;
+     background-color: red;
     border: black 10px solid; 
-}*/
-
+}
+ */
 
 /* contact  */
 
